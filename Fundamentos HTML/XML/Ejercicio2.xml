@@ -1,0 +1,21 @@
+<factura>
+  <cliente>
+    <nombre>Julian Rojas</nombre>
+    <telefono>3118991966</telefono>
+  </cliente>
+  <precio-total id="1" fecha="2012/01/30"></precio-total>
+  <articulos>
+    <articulo id="1">
+      <descripcion>Papa</descripcion>
+      <precio-unitario>25000</precio-unitario>
+      <precio-final>45000</precio-final>
+      <cantidad>1</cantidad>
+    </articulo>
+    <articulo id="2">
+      <descripcion>Yuca</descripcion>
+      <precio-unitario>25000</precio-unitario>
+      <precio-final>45000</precio-final>
+      <cantidad>1</cantidad>
+    </articulo>
+  </articulos>
+</factura>
