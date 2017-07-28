@@ -1,7 +1,5 @@
 primer rengoln
 segundo renglon remoto
-<<<<<<< HEAD
 tercer rengoln local
-=======
 tercer rengon remoto
->>>>>>> db1f3976ccf757689aa6b09a7f578efb2c159d71
+
