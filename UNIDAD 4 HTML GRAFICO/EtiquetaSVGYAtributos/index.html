@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewreport" content="width=device-width, user-scalable=no" !>
+    <title>Etiqueta g</title>
+  </head>
+  <body>
+    <svg width="1200px" height="1200px" viewBox="0 0 1200 1200">
+      <!---Elemento Contenedor quer agrupa las formas-->
+        <g id="agrupacion" fill="red" stroke="black" stroke-widh="5">
+          <rect x="150px" y="100px" width="80px" height="80px"/>
+          <rect x="350px" y="150px" width="150px" height="150px"/>
+        </g>
+    </svg>
+
+    <svg width="1200px" height="1200px" viewBox="0 0 1200 1200">
+      <g>
+        <title>Ejemplo</title>
+        <desc>Descripcion de Ejemplo</desc>
+      <!---Elemento que permite definir una parte de codigo que sera reutilizado-->
+      <defs>
+        <linearGradient id="Gradiente1">
+          <stop offset="20%" stop-color="#39f"/>
+          <stop offset="90%" stop-color="#f3f"/>
+        </linearGradient>
+      </defs>
+      <rect x="104" y="100" width="250px" height="400px"
+        fill="url(#Gradiente1)"
+      />
+
+    </g>
+
+    </svg>
+
+    <svg width="1200px" height="1200px" viewBox="0 0 1200 1200">
+      <defs>
+        <rect id="Recta" fill="Red"  stroke="black" stroke-widh="5"  width="150" height="120"/>
+      </defs>
+      <use x="200" y="200" xlink:href="#Recta"/>
+      <use x="400" y="200" xlink:href="#Recta"/>
+      <use x="300" y="450" xlink:href="#Recta"/>
+    </svg>
+
+
+    <svg width="1200px" height="1200px" viewBox="0 0 1200 1200">
+      <path d="M 100 100 L 300 100 L 200 200 z"
+      fill="Red"  stroke="black" stroke-width="5"
+      >
+      </path>
+    </svg>
+
+
+
+
+  </body>
+</html>
