@@ -24,3 +24,43 @@ img{
 .Enlace{
   color: red;
 }
+a[href^="in"],a[href^="e"]{
+  color: red;
+}
+img[src$='.svg']{
+  border-radius: 150px;
+}
+img[src$='jpg'], img[src$='png']{
+  border: 1px solid black;
+  border-radius: 15px;
+}
+a[href],
+a[href="http://www.google.com.co"],
+img[src$=svg], /***Busca svg al final***/
+img[src^svg], /***Busca svg al inicio el caracter es gorrito**/
+img[src~=svg], /***Busca svg en multiples valores separadors por espacios**/
+img[src|=svg], /***Busca svg al principio y en todo el contenido pero seguido de un - **/
+img[src|='icono']/* Selecciona todos los que se llamen icono**/
+{
+
+}
+[title*='descripcion']/**Selecciona todos los atritutos title que se llamen descripcion**/
+{
+
+}
+*{       /**Se aplica a todos los documentos html*/
+  margin: 1vh 1vw;
+}
+h1+h2{  /**Permite solo modificar una etiqueta que esta precedidad de otra, para este ejemplo solo se modifica h2 que tenga antes un h1*/
+  text-decoration: underline;
+}
+h2~p{ /**Permite modificar todos los hijos de la etiqueta que se especifique*/
+  text-align: justify;
+}
+article>h2{ /**Modifica todos los hijos h2 de artiqule*/
+  text-decoration: underline;
+}
+
+ul li{ /**Modifica todos los items de una lista ul*/
+  list-style-type: circle;
+}
