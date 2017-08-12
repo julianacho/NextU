@@ -1,0 +1,43 @@
+article[class^='caja']{ /**article que comience con la palabra caja*/
+  display: inline-block;
+  height: 220px;
+  width: 400px;
+  text-align: justify;
+  padding: 10px;
+}
+.caja1{
+  border: 4px solid black; /*Recibe 3 Parametros el border*/
+  margin: 50px 20px 50px 20px;
+}
+.caja2{
+  border: 4px dashed black; /*Recibe 3 Parametros el border*/
+  margin: 50px 20px; /*Se hace el margen de arriba y abajo con 50 y los lados cpm 20*/
+}
+.caja3{
+  border: 4px;
+  border-style: dotted;
+  border-color: black;
+  margin: 2px 4px 20px 40px /*Es decir 2 arriba, 4 deracha 20 abajo y 40 izquierda*/
+}
+.caja4{
+  border: 4px double black; /*Recibe 3 Parametros el border*/
+  margin: 20px; /*Todo el margen esta de 20px*/
+}
+.caja5{
+  border: 4px groove black; /*Recibe 3 Parametros el border*/
+}
+.caja6{
+  border: 4px inset black; /*Recibe 3 Parametros el border*/
+}
+
+.caja7{
+  border: 4px outset black; /*Recibe 3 Parametros el border*/
+}
+
+.caja8{
+  border: 4px ridge black; /*Recibe 3 Parametros el border*/
+}
+
+.caja9{
+  border: 4px solid black; /*Recibe 3 Parametros el border*/
+}

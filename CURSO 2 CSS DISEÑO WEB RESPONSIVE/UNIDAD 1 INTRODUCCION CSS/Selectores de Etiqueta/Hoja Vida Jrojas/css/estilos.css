@@ -64,3 +64,39 @@ article>h2{ /**Modifica todos los hijos h2 de artiqule*/
 ul li{ /**Modifica todos los items de una lista ul*/
   list-style-type: circle;
 }
+a[href^="http://"] :visited{
+  color: red;
+}
+
+/**
+pseudo-clases son :link, :active,:hover, :focus, :checked, :first-child, :last-child, :nth-child.
+pseudo-elementos existentes son ::after, ::before, ::first-letter,::first-line y ::selection.
+*/
+a:hover{ /**Dejar de un color cuando pase por encima*/
+  color: green;
+}
+h2:first-child{ /**Coloca raya debajo**/
+  text-decoration: underline;
+}
+input:focus{ /* Cuando se situa en el imput hace mas grande el area de texto**/
+  width: 160px;
+  height: 140px;
+}
+p::first-letter{
+  text-transform: capitalize;
+}
+p::first-line{ /*Modifica la primera linea a unas cosas*/
+  font-size: 32px;
+}
+p::selection{
+
+}
+#Estudios>ul>li:first-child>a::after{ /*cOLOCA ANTES I DESPUES ETIQUETA*/
+  content: '" - after"';
+}
+#Estudios>ul>li:first-child>a::before{
+  content: '"before -"';
+}
+#Estudios>ul>li:nth-child(2)>a::after{
+  content: '"hijo 2"';
+}

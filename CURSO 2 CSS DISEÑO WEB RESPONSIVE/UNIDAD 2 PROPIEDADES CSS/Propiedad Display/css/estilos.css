@@ -1,0 +1,21 @@
+h1{
+  background-color: rgb(113, 159, 0);
+}
+#idh1{
+  background-color: rgb(113, 159, 0);
+  width: 400px;
+  opacity: 0; /*No se visualiza pero mantiene el renderizado*/
+}
+
+#idh2{
+  background-color: rgb(113, 159, 0);
+  width: 400px;
+  display: none;/*No se visualiza y no sem mantiene el renderizado*/
+}
+h2{
+  background-color: rgb(153, 63, 224);
+  display: inline; /*Permite visualizar sobre la misma linea y no hace bloque**/
+}
+p{
+  display: inline; /*Permite visualizar sobre la misma linea y no hace bloque**/
+}
