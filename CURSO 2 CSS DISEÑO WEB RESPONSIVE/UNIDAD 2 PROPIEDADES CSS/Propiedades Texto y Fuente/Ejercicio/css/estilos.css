@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'FuenteLato';
+  src:"url(../fuentes/Lato-Regular.ttf)";
+}
+body{
+	margin: 20px;
+	font-family: 'Lora';
+}
+
+.resaltado{
+	background-color: yellow;
+	color: black;
+}
+
+#menu-principal{
+	padding: 10px 0px;
+	font-style: italic;
+}
+#menu-principal1{
+	font-family: 'FuenteLato';
+	font-variant:small-caps; /*Deja la primera letra mas grande*/
+}
+
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 10px;
+}

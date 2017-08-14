@@ -1,0 +1,67 @@
+body {
+  font-size: 3em;
+  font-family: helvetica;
+}
+div [class*="bloque"]{
+  min-height: 200px;
+  
+  /**flex-basis: 30%; /*Asigna el valor relativo de los items de acuedo al tamaño del contenedor */
+  flex: 1 2 40%;
+  /*Numero del Flex Group ,,Flex basics */
+}
+
+.bloque1 {
+  color: #ddd;
+  background-color: #FF0000;
+  order: 2; /*Determina el orden de los items en la agrupacion*/
+  /**flex-grow: 2; /*Indica un tamaño en especifico de un compoennete*/
+
+
+}
+.bloque2 {
+  color: #333;
+  background-color: #00FF99;
+  order: 3; /*Determina el orden de los items en la agrupacion*/
+
+
+}
+.bloque3 {
+  color: #333;
+  background-color: #00FFFF;
+  order: 4; /*Determina el orden de los items en la agrupacion*/
+
+
+}
+.bloque4 {
+  color: #333;
+  background-color: #FFFF00;
+  order: 5; /*Determina el orden de los items en la agrupacion*/
+
+
+}
+.bloque5 {
+  color: #ddd;
+  background-color: #000000;
+  order: 1;
+
+}
+.bloque6 {
+  color: #333;
+  background-color: #0Fd000;
+  order: 6;
+
+}
+.bloque7 {
+  color: #ddd;
+  background-color: #0000F0;
+  order: 7;
+
+}
+
+.contenedor{
+  display: flex; /*Indica el contenedor que se va a trabajar con flex*/
+  /**flex-direction: row-reverse; /*Se visualiza en columnas a lo ancho de la pagina*/
+  /**flex-direction: column; /*Se visualiza en filas a lo alto de la pagina de la pagina*/
+
+  flex-flow: row wrap;/* Tiene 2 Parametros: Primero Direccion y el otro tipo de agrupamiento*/
+}
