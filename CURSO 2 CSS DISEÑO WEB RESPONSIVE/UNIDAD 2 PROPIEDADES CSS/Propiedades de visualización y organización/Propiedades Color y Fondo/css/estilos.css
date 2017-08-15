@@ -5,6 +5,7 @@ body {
 		margin: 0;
 		padding: 0;
 		text-align: left;
+		color: #000305;
 	}
 
 /* Encabezados */
@@ -26,6 +27,7 @@ a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
 	padding: 0 1px;
 	text-decoration: underline;
+	color: rgb(51, 153, 204);
 }
 
 /* Párrafos */
@@ -111,6 +113,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 	/* Nav Principal*/
 	#banner nav {
+		background: hsl(0, 0%, 21%); /*Otra forma de dar color*/
 		font-size: 1.143em;
 		height: 40px;
 		line-height: 30px;
@@ -128,10 +131,16 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		height: 30px;
 		padding: 5px 1.5em;
 		text-decoration: none;
+		color: #fff;
 	}
-	#banner nav a:hover, #banner nav a:active,
+	#banner nav a:hover, #banner nav a:active{
+		background: hsla(200, 60%, 50%, 0.65);
+		text-shadow: none !important;
+	}
 	#banner nav .active a:link, #banner nav .active a:visited {
 		text-shadow: none !important;
+		background: #3399CC;
+		color: #FFF;
 	}
 
 /*
